@@ -19,6 +19,7 @@ export default function OriginPage() {
   return (
     <main className="min-h-screen bg-[#070b14] text-stone-100">
       <section className="mx-auto max-w-7xl px-6 py-24">
+        
   <div className="grid items-center gap-16 lg:grid-cols-2">
 
     {/* LEFT */}
@@ -68,7 +69,7 @@ export default function OriginPage() {
 
       <section className="mx-auto max-w-4xl px-6 py-24">
         <div className="mb-20">
-  <h2 className="font-serif text-6xl text-amber-200">
+  <h2 className="break-words font-serif text-4xl text-amber-200 sm:text-5xl md:text-6xl">
     Witoszyński Family
   </h2>
 
