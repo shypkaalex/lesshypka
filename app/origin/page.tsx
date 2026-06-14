@@ -18,34 +18,51 @@ const familyLines = [
 export default function OriginPage() {
   return (
     <main className="min-h-screen bg-[#070b14] text-stone-100">
-      <section className="mx-auto flex min-h-screen max-w-6xl flex-col justify-center px-6 py-24 text-center">
-        <p className="mb-6 text-sm uppercase tracking-[0.5em] text-amber-300">
-          Les Shypka
-        </p>
+      <section className="mx-auto max-w-7xl px-6 py-24">
+  <div className="grid items-center gap-16 lg:grid-cols-2">
 
-        <h1 className="font-serif text-6xl text-stone-50 md:text-8xl">
-          Origin
-        </h1>
+    {/* LEFT */}
+    <div className="flex flex-col items-center">
+      <img
+  src="/les-coa.jpg"
+  alt="Coat of Arms of Les Shypka"
+  className="
+    max-h-[300px]
+    w-auto
+    drop-shadow-[0_0_35px_rgba(255,215,0,0.15)]
+  "
+/>
 
-        <div className="mx-auto mt-10 h-px w-24 bg-amber-300" />
-
-        <p className="mx-auto mt-10 max-w-2xl text-lg tracking-wide text-stone-300 md:text-xl">
-          Family Lines · Historical Documents · Family Archives
-        </p>
-
-        <div className="mx-auto mt-12 max-w-4xl text-center">
-  <p className="text-lg leading-relaxed text-white/80 md:text-xl">
-     More than a genealogy project, it is an effort to build the bridge between the past,
-    the present and the future through documented family history. 
+ <p className="mt-6 text-center text-xl text-amber-300 font-serif italic">
+    Les Coat of Arms
   </p>
+    </div>
 
-  <p className="mt-6 text-base leading-relaxed text-white/60 md:text-lg">
-    Origin preserves documented ancestry, historical manuscripts,
-    heraldic heritage and the memory of generations.
-  </p>
-</div>
+    {/* RIGHT */}
+    <div>
+      <p className="mb-6 text-sm uppercase tracking-[0.45em] text-amber-300">
+        LES SHYPKA
+      </p>
 
-      </section>
+      <h1 className="font-serif text-7xl text-white md:text-8xl">
+        Origin
+      </h1>
+
+      <div className="mt-8 h-px w-40 bg-amber-400" />
+
+      <p className="mt-8 text-2xl text-white/80">
+        Family Lines · Historical Documents · Family Archives
+      </p>
+
+      <p className="mt-10 max-w-3xl text-xl leading-relaxed text-white/70">
+        More than a genealogy project, it is an effort to build
+        the bridge between the past, the present and the future
+        through documented family history.
+      </p>
+    </div>
+
+  </div>
+</section>
 
       
 
