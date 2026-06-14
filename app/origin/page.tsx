@@ -66,7 +66,7 @@ export default function OriginPage() {
 
       
 
-      <section className="mx-auto max-w-6xl px-6 py-24">
+      <section className="mx-auto max-w-4xl px-6 py-24">
         <div className="mb-20">
   <h2 className="font-serif text-6xl text-amber-200">
     Witoszyński Family
@@ -131,7 +131,7 @@ export default function OriginPage() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-6xl px-6 py-24">
+      <section className="mx-auto max-w-4xl px-6 py-24">
         <div className="mb-20">
   <h1 className="font-serif text-7xl text-amber-200">
     House of Sozań
