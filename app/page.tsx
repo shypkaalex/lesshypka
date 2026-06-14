@@ -17,7 +17,7 @@ export default function Home() {
 
 
         <p className="mt-8 max-w-3xl text-lg leading-relaxed text-stone-300">
-          Researcher of family history, heraldry and documented ancestral traditions.
+          Bridge Builder Mission Statement: "To help people gain clarity about the mechanics of reality".
         </p>
 
         <p className="text-sm md:text-base text-white/80 leading-relaxed tracking-wide">
