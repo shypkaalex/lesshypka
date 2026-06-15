@@ -139,8 +139,7 @@ export default function OriginPage() {
   </h1>
 
   <p className="mt-6 max-w-5xl text-lg italic leading-relaxed text-white/70">
-    On December 7, 1396, Simon, the direct descendant of Dragoș I,
-    the first voivode of Moldavia, purchased the Monastery of
+    On December 7, 1396, Simon, descendant of the Dukes of Sas, purchased the Monastery of
     St. Michael of Sozań and became Abbot Nullius under the name
     Simon of Sozań.
   </p>
